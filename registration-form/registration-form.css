@@ -1,0 +1,28 @@
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: steelblue;
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 180px;
+}
+
+form {
+  display: inline-block;
+  width: 220px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
