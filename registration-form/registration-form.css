@@ -52,3 +52,14 @@ form {
 input[type="password"]::-ms-reveal {
   display: none;
 }
+
+input[type="password"] {
+  display: inline;
+}
+
+#passwordReveal {
+  margin-left: -50px;
+  width: 50px;
+  color: white;
+  background-color: rgb(189, 121, 32);
+}
