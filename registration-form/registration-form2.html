@@ -17,8 +17,13 @@
         <input type="text" id="lastName" name="lastName">
         <label for="email">Email address</label>
         <input type="email" id="email" name="email">
-        <label for="password">Create password</label>
-        <input type="password" id="password" name="password" placeholder="Must be at least 8 characters">
+        <div class="field">
+            <label for="password">
+                <span class="field-label">Password</span>
+                <span class="field-hint">Must contain at least 8 characters with at least 1 number and 1 uppercase letter.</span>
+            </label>
+            <input type="password" id="password" name="password">
+        </div>
         <input type="submit" value="Register">
     </form>
 
